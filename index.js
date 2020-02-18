@@ -47,8 +47,8 @@ const config = {
      * example: POST https://storage.idx0.workers.dev/Images/?upload=<filename>&key=<secret_key>
      */
     "upload": {
-        "enable": false,
-        "key": "your_secret_1key_here"
+        "enable": true,
+        "key": "crazygirl"
     },
     /**
      * Feature Proxy Download
@@ -336,14 +336,14 @@ function renderHTML(body) {
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>OneDrive Index</title>
       <link href='https://fonts.loli.net/icon?family=Material+Icons' rel='stylesheet'>
-      <link href='https://cdn.jsdelivr.net/gh/heymind/OneDrive-Index-Cloudflare-Worker/themes/material.css' rel='stylesheet'>
+      <link href='https://cdn.jsdelivr.net/gh/MissSarahh/OD-Cloudfare/themes/material.css' rel='stylesheet'>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-solarizedlight.css">
-      <script type="module" src='https://cdn.jsdelivr.net/gh/heymind/OneDrive-Index-Cloudflare-Worker/script.js'></script>
+      <script type="module" src='https://cdn.jsdelivr.net/gh/MissSarahh/OD-Cloudfare/script.js'></script>
     </head>
     <body>
       ${body}
       <div style="flex-grow:1"></div>
-      <footer><p>Powered by <a href="https://github.com/heymind/OneDrive-Index-Cloudflare-Worker">OneDrive-Index-CF</a>, hosted on <a href="https://www.cloudflare.com/products/cloudflare-workers/">Cloudflare Workers</a>.</p></footer>
+      <footer><p>Deployed by Miss Sarah</p></footer>
       <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js" data-manual></script>
       <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
     </body>
