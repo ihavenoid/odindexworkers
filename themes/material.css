@@ -42,7 +42,7 @@ a.item {
   display: flex;
   align-items:center;
   text-decoration: none; 
-  color: #fa0060;
+  color: #1bbf9c;
   padding: 0.8rem 1rem;
   transition: .5s hover linear;	
 }
@@ -50,7 +50,7 @@ a.item i {
   margin-right:0.5rem;
 }
 a.item:hover {
-  background: #ffe7d1;
+  background: #ffffff;
 }
 footer {
   font-size: 1.1rem;
