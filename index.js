@@ -1,7 +1,7 @@
 const config = {
     /**
-     * You can use this tool http://heymind.github.io/tools/microsoft-graph-api-auth
-     * to get following params: client_id, client_secret, refresh_token & redirect_uri.
+     * See Rclone docs for Onedrive remote and setup an app for client id, secret and all and use those details
+     * to fill following params: client_id, client_secret, refresh_token & redirect_uri(can skip redirect url)
      */
     "refresh_token": "",
     "client_id": "",
@@ -10,7 +10,7 @@ const config = {
     /**
      * The base path for indexing, all files and subfolders are public by this tool. For example `/Share`.
      */
-    base: "/Allin1",
+    base: "/Share",
     /**
      * Feature Caching
      * Enable Cloudflare cache for path pattern listed below.
@@ -336,9 +336,9 @@ function renderHTML(body) {
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>OneDrive Index</title>
       <link href='https://fonts.loli.net/icon?family=Material+Icons' rel='stylesheet'>
-      <link href='https://cdn.jsdelivr.net/gh/MissSarahh/odcloudworkers/themes/material.css' rel='stylesheet'>
+      <link href='https://cdn.jsdelivr.net/gh/MissSarahh/odindexworkers/themes/material.css' rel='stylesheet'>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-solarizedlight.css">
-      <script type="module" src='https://cdn.jsdelivr.net/gh/MissSarahh/odcloudworkers/script.js'></script>
+      <script type="module" src='https://cdn.jsdelivr.net/gh/MissSarahh/odindexworkers/script.js'></script>
     </head>
     <body>
       ${body}
