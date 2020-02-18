@@ -1,7 +1,7 @@
 body {
     margin:0;
     padding:0;
-    background:#fdfdfd;
+    background:#000000;
     display:flex;
     align-items:center;
     justify-content:bewteen;
@@ -14,7 +14,7 @@ nav {
   align-items:center;
   width:100%;
   height:3rem;
-  background: #4b8e8d;
+  background: #1bbf9c;
   color: white;
   font-size:1.4rem;
   box-shadow: 0 5px 10px 0 rgba(0,64,128,.25);
@@ -42,7 +42,7 @@ a.item {
   display: flex;
   align-items:center;
   text-decoration: none; 
-  color: #396362;
+  color: #fa0060;
   padding: 0.8rem 1rem;
   transition: .5s hover linear;	
 }
