@@ -336,9 +336,9 @@ function renderHTML(body) {
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>OneDrive Index</title>
       <link href='https://fonts.loli.net/icon?family=Material+Icons' rel='stylesheet'>
-      <link href='https://cdn.jsdelivr.net/gh/MissSarahh/OD-Cloudfare/themes/material.css' rel='stylesheet'>
+      <link href='https://cdn.jsdelivr.net/gh/MissSarahh/odcloudworkers/themes/material.css' rel='stylesheet'>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-solarizedlight.css">
-      <script type="module" src='https://cdn.jsdelivr.net/gh/MissSarahh/OD-Cloudfare/script.js'></script>
+      <script type="module" src='https://cdn.jsdelivr.net/gh/MissSarahh/odcloudworkers/script.js'></script>
     </head>
     <body>
       ${body}
