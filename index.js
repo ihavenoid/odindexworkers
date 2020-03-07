@@ -336,14 +336,14 @@ function renderHTML(body) {
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
       <title>OneDrive Index</title>
       <link href='https://fonts.loli.net/icon?family=Material+Icons' rel='stylesheet'>
-      <link href='https://cdn.jsdelivr.net/gh/MissSarahh/odindexworkers/themes/material.css' rel='stylesheet'>
+      <link href='https://cdn.jsdelivr.net/gh/ihavenoid/odindexworkers/themes/material.css' rel='stylesheet'>
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/themes/prism-solarizedlight.css">
       <script type="module" src='https://cdn.jsdelivr.net/gh/MissSarahh/odindexworkers/script.js'></script>
     </head>
     <body>
       ${body}
       <div style="flex-grow:1"></div>
-      <footer><p>Deployed by Miss Sarah</p></footer>
+      <footer><p>Deployed by ihavenoid</p></footer>
       <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/prism.min.js" data-manual></script>
       <script src="https://cdn.jsdelivr.net/npm/prismjs@1.17.1/plugins/autoloader/prism-autoloader.min.js"></script>
     </body>
